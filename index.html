@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clément Mbarga Minsi</title>
+        <!--  CSS au HTML  -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Bouton Aller en haut-->
+    <a class="btnHaut" href="#top">
+        <svg src="img/fleche.svg" width="25" height="20">
+            <path d="M0 16.67l2.829 2.83 9.175-9.339 9.167 9.339 2.829-2.83-11.996-12.17z"></path>
+        </svg>
+    </a>
+
+    
+    <!-- DEBUT HEADER-->
+        <section>
+            <div>
+                <div class="hautdepage">
+                    <h1 class="titre ">↓ PORTRAIT CHINOIS - CLEMENT MBARGA MINSI ↓</h1>
+                </div>
+                
+                
+            </div>
+
+            
+        </section>
+        <!-- Fin présentation -->
+    </header>
+
+
+<!-- FIN HEADER -->
+
+    <!--éléments dans le fichier data.json ou sont les analogies-->
+    <div class="portrait-chinois" id="bloc"></div> 
+
+    
+    <section class="formu" id="Formulaire">
+        <main class="styleform">
+            <form action="" method="post">
+                <h1 class ="topun">↓  A TOI  ↓ </h1>
+                <h3>TON MAIL</h3>
+                <input type="email"  id="mail" required>
+                <h3>SI J'ETAIS ...</h3>
+                <input type="text" id="analogie" required>
+                <h3>JE SERAIS ...</h3>
+                <input type="text"  id="valeurAnalogie" required>
+                <h3>IMAGE(URL)</h3>
+                <input type="url" id="imganalogie" name="imganalogie" required>
+                <h3>JUSTIFICATION</h3>
+                <textarea class="arg" type="text" id="arganalogie" cols="40"
+                    rows="5" spellcheck="true"></textarea>
+                <p class="formbtn">
+                    <input type="submit" value="Envoyer" id="send" name="send">
+                </p>
+                <div id="message"></div>
+            </form>
+        </main>
+    </section>
+    
+<!--Les si j'étais je serais des utilisateurs -->
+<div id="see">
+    <!-- Liaison du script.js -->
+    <script src="script.js"></script>
+
+    <section class="volet-invisible volet" id="volet">
+        <footer>
+    
+            <!--  MENTIONS LEGALES -->
+            <div class="legales">
+                <h1> Mentions Légales</h1>
+                <br> Projet réalisé par Clément Mbarga Minsi
+                <br> Identité : Université Gustave Eiffel
+                <br> Adresse : 2 rue Albert Einstein, 77420 Champs-sur-Marne, France
+                <br> Téléphone : 01 60 95 75 00 
+            </div>
+            <!-- FIN MENTIONS LEGALES -->
+    
+        </footer>
+    </section>
+</body>
+
+</html>

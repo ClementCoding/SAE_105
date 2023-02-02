@@ -1,0 +1,52 @@
+[
+{
+    "analogie": "UNE COULEUR",
+    "valeur": "LE VIOLET",
+    "images": "img/violet.jpg",
+    "classjustification": "imgright",
+    "justification": "Symbolisant la créativité, la méditation, la délicatesse ou encore le rêve. Cette couleur est pour moi la plus belle et la plus gracieuse. Elle a une facilité a m'apaisé, elle possède des propriétés calmante pour l'esprit et les émotions"
+},
+
+{
+    "analogie": "UN INSTRUMENT",
+    "valeur": "UN RHODES",
+    "images": "img/rhode.jpg",
+    "classjustification": "imgright",
+    "justification": "Car pour moi le grain de cette instrument a une sonorité éléctrique, gracieuse et douce. Le Rhodes est la rare clavier à encore charmer les coeurs de ce qui entendent le son sortir du clavier"
+},
+{
+    "analogie": "UN PAYS",
+    "valeur": "LE CAMEROUN",
+    "images": "img/cameroun.png",
+    "classjustification": "imgright",
+    "justification": "Car les couleurs de ce drapeau, le vert, le rouge et le jaune signifient la force du pays et la beauté des paysages. Quand je me retrouve au sein du pays je me sens libre et revigoré. Les spécialités du Cameroun sont sans doute à mes yeux les plus incroyables et les plus goûtu"
+},
+{
+    "analogie": "UN ARTISTE",
+    "valeur": "DAMSO",
+    "images": "img/damso.jpg",
+    "classjustification": "imgright",
+    "justification": "Damso est pour moi depuis plusieurs années l'artiste qui occupe le TOP 1 de mon compte spotify. Je me retrouve en lui et je perçois la vision et l'impact de ses Paroles. Dès que lance une musique j'arrive a retrouver des moments de ma vie qu'il a lui aussi vécu."
+},
+{
+    "analogie": "UN PLAT",
+    "valeur": "DU POULET BRAISE",
+    "images": "img/pouletbraisé.png",
+    "classjustification": "imgright",
+    "justification": "Le poulet braisé est un plat de poulet cuit lentement dans un liquide (comme du bouillon ou de la bière), avec des légumes et des épices. La cuisson lente permet aux saveurs de se mélanger et de pénétrer profondément dans la viande, ce qui rend le poulet tendre et extrêmement savoureux."
+},
+{
+    "analogie": "UN MONUMENT",
+    "valeur": "LE COLISEE",
+    "images": "img/le colisée à rome.jpg",
+    "classjustification": "imgright",
+    "justification": "Le Colisée est pour moi le plus beau monument du monde, de pars son infrinstructure et son histoire. Derrière ses énormes murs ce cache une magnifique arène. Il se situe en Italie dans la ville de Rome, j'aimerais énormémément y aller mais malheuresement depuis le COVID 19 je ne voyage plus trop."
+},
+{
+    "analogie": "UN MANGA",
+    "valeur": "BLEACH",
+    "images": "img/bleach.jpg",
+    "classjustification": "imgright",
+    "justification": "Pour moi Bleach est le meilleur manga car l'histoire est riche en action et en suspense, avec de nombreux combats intenses et des rebondissements imprévus. De plus La série aborde des thèmes importants tels que l'amitié, la loyauté, la responsabilité et le sacrifice. Pour moi La série aborde des thèmes importants tels que l'amitié, la loyauté, la responsabilité et le sacrifice."
+}
+]

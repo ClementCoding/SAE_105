@@ -1,0 +1,204 @@
+/*  SCROLL  */
+html {
+    scroll-behavior: smooth;
+    -ms-scroll-snap-type: y mandatory;
+    scroll-snap-type: y mandatory;
+}
+/* FIN DE SCROLL  */
+
+/*  BODY  */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+/* FIN MODIFICATION HAUT DE PAGE  */
+
+
+
+
+
+/*  MODIFICATION HAUT DE PAGE  */
+
+
+@media (max-width: 2000px) {
+    
+    .hautdepage .titre {
+        font-size: 4.5rem;
+        color: #53b6f0;
+        position:relative;
+        top: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.titre{
+    animation: neon 1s ease-in-out infinite;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 30px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  
+}
+
+@keyframes titre {
+from {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 30px #007bff, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+}
+to {
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 30px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF, 0 0 80px #228DFF;
+}
+}
+.btnHaut {
+	position: fixed;
+	bottom: 0;
+	padding: 15px;
+	margin: 20px;
+	cursor: pointer;
+    fill: #ffffff;
+    margin-left: -900;
+    z-index: 1;
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+}
+/* FIN  MODIFICATION HAUT DE PAGE  */
+
+/* MODIFICATION ANALOGIE*/
+
+section img {
+    height: 40vh;
+    border-radius: 50%;
+    border: 8px solid #79d3f7;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
+}
+
+
+section .imgright {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .justification {
+    background-color: #00aeff3b;
+    text-align: justify;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    max-height: 60vh;
+    border-radius: 200px;
+    font-size: 1.5rem;
+    padding: 56px;
+    color: #000000;
+    
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    background-image: url('img/backgroundblue.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+section .analogie {
+    user-select: none;
+    position: absolute;
+    margin-top: 16vh;
+    color: #000000;
+    font-size: 3.2rem;
+    
+}
+
+.analogie span {
+    color: #000303;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 0 0 4px #fff, 0 0 20px #fff, 0 0 0px #fff, 0 0 40px #303df3, 0 0 70px #19a4db, 0 0 80px #2553b8, 0 0 40px #008cff, 0 0 15px #2997ff;
+    animation: neon 1.5s ease-in-out infinite alternate;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+/* FIN MODIFICATION ANALOGIE*/
+
+/* LE FORMULAIRE */
+
+form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.topun{
+    font-size: 45px;
+    border: 8px solid rgb(65, 194, 253);
+}
+
+.formu{
+    background-color: whitesmoke;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+input[type="submit"]{
+    background-color: #36e1f8;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+.styleform{
+    text-decoration: underline;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 10px;
+  }
+  
+
+input{
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 6px solid rgb(0, 0, 0);
+}
+
+input:required{
+    border: 8px solid rgb(65, 194, 253);
+}
+
+
+.just{
+    height: 100px;
+    border: 6px solid rgb(0, 0, 0);
+
+}
+
+.legales {
+    background-color: rgb(80, 178, 243);
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.legales h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.h1{
+    font-size: 40cm;
+}
